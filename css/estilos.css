@@ -1,0 +1,824 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bernard MT Condensed';
+    background: #191919;
+ 
+}
+
+.wrapper{ 
+	
+	overflow-y:scroll;
+	position:relative;}
+
+#header{
+   position: absolute;
+   width: 100%;
+   height: 90px;
+   top: 45px;
+   background: url(../icon/Señal.jpg);  
+  
+}
+#header #titulo{
+    position: absolute;
+	width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: right;
+    font-size: 40px;
+    margin-top: -23px;
+    color: #F7F7F5;
+  
+}
+
+#header img{
+
+    position: absolute;
+	width: 5.5%;
+	top: 38px;
+	right: 249px;
+
+}
+.rotate{
+
+	transform: rotate(325deg);
+}
+#check {
+	float: right;
+    top: 10px;
+    display: none;
+}
+#check:checked ~ .menu{
+	width: 200px;
+   }
+
+
+.menu{
+	font-family: 'Britannic Bold';
+	position: absolute;
+	top: 133px;
+	right: 0px;
+	width: 0px;
+	height: 70vh;
+	background: #FA0000;
+	transition: all 500ms cubic-bezier(1,0,0,1);
+	transition-timing-function: cubic-bezier(1,0,0,1.5);
+	overflow: hidden;
+	
+}
+
+.menu li{
+	list-style: none;
+	padding: 16px;
+	top: 60px;
+	color: black;
+	cursor: pointer;
+	transition: all 300ms;
+	position: block;
+	width: 200px;
+   
+}
+
+.menu a{
+    list-style: none;
+    padding: 16px;
+    top: 60px;
+    color: black;
+    cursor: pointer;
+    transition: all 300ms;
+    position: block;
+    width: 200px;
+    text-decoration: none;
+
+}
+
+.menu li:hover{
+	background: rgba(0,0,0,0.2);
+    border-left: 5px solid #c7c7c7;
+
+}
+
+.content-all label img{
+	position: absolute;
+	width: 3%;
+	top: 50px;
+	right: 50px;
+	cursor: pointer;
+	
+}
+
+#centro1{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 180px;
+    color: #F7F7F5;
+
+}
+
+#imagen1 img{
+	position: absolute;
+	width: 10%;
+	height: 30%;
+	top: 48%;
+    right: 925px;
+}
+
+#imagen2 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 300px;
+	right: 700px;
+}
+#imagen3 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 300px;
+	right: 475px;
+}
+#imagen4 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 300px;
+	right: 250px;
+}
+#imagen5 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 550px;
+	right: 925px;
+}
+#imagen6 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 550px;
+	right: 700px;
+}
+#imagen7 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 550px;
+	right: 475px;
+}
+#imagen8 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 550px;
+	right: 250px;
+}
+
+
+#centro2{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen11 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1020px;
+	right: 925px;
+	
+}
+
+#imagen21 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1017px;
+	right: 700px;
+}
+#imagen31 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1017px;
+	right: 475px;
+}
+#imagen41 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1017px;
+	right: 250px;
+}
+#imagen51 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1270px;
+	right: 925px;
+}
+#imagen61 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1270px;
+	right: 700px;
+}
+#imagen71 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1270px;
+	right: 475px;
+}
+#imagen81 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1270px;
+	right: 250px;
+}
+
+
+#centro3{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen12 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1467;
+	right: 925px;
+	
+}
+
+#imagen22 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1739px;
+	right: 700px;
+}
+#imagen32 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1739px;
+	right: 475px;
+}
+#imagen42 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1739px;
+	right: 250px;
+}
+#imagen52 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2000px;
+	right: 925px;
+}
+#imagen62 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2000px;
+	right: 700px;
+}
+#imagen72 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2000px;
+	right: 475px;
+}
+#imagen82 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2000px;
+	right: 250px;
+}
+
+#centro4{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen13 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1467;
+	right: 925px;
+	
+}
+
+#imagen23 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2456px;
+	right: 700px;
+}
+#imagen33 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2456px;
+	right: 475px;
+}
+#imagen43 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2456px;
+	right: 250px;
+}
+#imagen53 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2720px;
+	right: 925px;
+}
+#imagen63 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:2720px;
+	right: 700px;
+}
+#imagen73 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 2720px;
+	right: 475px;
+}
+#imagen83 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:2720px;
+	right: 250px;
+}
+
+#centro5{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen14 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1467;
+	right: 925px;
+	
+}
+
+#imagen24 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3177px;
+	right: 700px;
+}
+#imagen34 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3177px;
+	right: 475px;
+}
+#imagen44 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3177px;
+	right: 250px;
+}
+#imagen54 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3439px;
+	right: 925px;
+}
+#imagen64 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:3439px;
+	right: 700px;
+}
+#imagen74 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3439px;
+	right: 475px;
+}
+#imagen84 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:3439px;
+	right: 250px;
+}
+
+
+#centro6{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen15 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1467;
+	right: 925px;
+	
+}
+
+#imagen25 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3898px;
+	right: 700px;
+}
+#imagen35 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3898px;
+	right: 475px;
+}
+#imagen45 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 3898px;
+	right: 250px;
+}
+#imagen55 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4150px;
+	right: 925px;
+}
+#imagen65 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:4150px;
+	right: 700px;
+}
+#imagen75 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4150px;
+	right: 475px;
+}
+#imagen85 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:4150px;
+	right: 250px;
+}
+
+
+#centro7{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 600px;
+    color: #F7F7F5;
+}
+
+#imagen16 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 1467;
+	right: 925px;
+	
+}
+
+#imagen26 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4614px;
+	right: 700px;
+}
+#imagen36 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4614px;
+	right: 475px;
+}
+#imagen46 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4614px;
+	right: 250px;
+}
+#imagen56 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4870px;
+	right: 925px;
+}
+#imagen66 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:4870px;
+	right: 700px;
+}
+#imagen76 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 4870px;
+	right: 475px;
+}
+#imagen86 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:4870px;
+	right: 250px;
+}
+
+
+#centro8{
+    width: 800px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+	text-align: 100px;
+    font-size: 28px;
+    margin-top: 550px;
+    color: #F7F7F5;
+}
+
+#imagen17 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top:7445 ;
+	right: 925px;
+	
+}
+
+#imagen27 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 5290px;
+	right: 700px;
+}
+#imagen37 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 5290px;
+	right: 475px;
+}
+#imagen47 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 5290px;
+	right: 250px;
+}
+#imagen57 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 5560px;
+	right: 820px;
+}
+#imagen67 img{
+    position: absolute;
+    width: 10%;
+    height: 30%;
+	top: 5560px;
+	right: 365px;
+}
+
+#Pie{
+	width: 100%;
+	height: 90%;
+	margin-top: 500px;
+	background: #FFFFFF;
+}
+
+#Pie #centro-pie{
+	width: 800px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+}
+
+.regreso li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 210px;
+    
+}
+
+.regreso a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+.regreso1 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 930px;
+    
+}
+
+.regreso1 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.regreso2 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 1650px;
+    
+}
+
+.regreso2 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.regreso3 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 2370px;
+    
+}
+
+.regreso3 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+.regreso4 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 3090px;
+    
+}
+
+.regreso4 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
+.regreso5 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 3810px;
+    
+}
+
+.regreso5 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.regreso6 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 4530px;
+    
+}
+
+.regreso6 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+.regreso7 li{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 5250px;
+    
+}
+
+.regreso7 a{
+    color: yellow;
+    text-decoration: none;
+    
+}
+
